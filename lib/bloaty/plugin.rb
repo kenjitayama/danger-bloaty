@@ -29,5 +29,9 @@ module Danger
     def warn_on_mondays
       warn 'Trying to merge code on a Monday' if Date.today.wday == 1
     end
+
+    def warn_just_for_test
+      warn 'Just trying to test this danger plugin'
+    end
   end
 end
