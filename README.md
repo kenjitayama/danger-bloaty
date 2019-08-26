@@ -1,6 +1,8 @@
 # danger-bloaty
 
-A description of danger-bloaty.
+A [Danger Ruby](https://github.com/danger/danger) plugin for [Bloaty McBloatface](https://github.com/google/bloaty).
+
+This plugin is not ready for use. Implementing has just begun…
 
 ## Installation
 
