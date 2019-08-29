@@ -4,6 +4,8 @@ A [Danger Ruby](https://github.com/danger/danger) plugin for [Bloaty McBloatface
 
 This plugin is still under development, and has only one basic feature now.
 
+<img width="774" alt="danger-bloaty-screenshot" src="https://user-images.githubusercontent.com/48171/63909895-927ed400-ca5f-11e9-9f82-7e682d3bb568.png">
+
 ## Prerequisites
 
 1. bloaty command available in `$PATH`
