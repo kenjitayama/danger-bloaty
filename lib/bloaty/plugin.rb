@@ -33,5 +33,13 @@ module Danger
     def warn_just_for_test
       warn 'Just trying to test this danger plugin'
     end
+
+    def notify_bloaty
+
+      markdown '## bloaty result'
+      markdown '```'
+      markdown "line1\nline2\nline3"
+      markdown '```'
+    end
   end
 end
