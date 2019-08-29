@@ -36,10 +36,11 @@ module Danger
 
     def notify_bloaty
 
+      result = `bloaty #{ENV['DANGER_BLOATY_APP_BINARY_PATH']}`
+
       markdown '## bloaty result'
       markdown '```'
-      markdown "line1\nline2\nline3"
-      markdown "bloaty #{ENV['DANGER_BLOATY_APP_BINARY_PATH']}"
+      markdown result
       markdown '```'
     end
   end
