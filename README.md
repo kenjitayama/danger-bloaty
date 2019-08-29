@@ -2,7 +2,13 @@
 
 A [Danger Ruby](https://github.com/danger/danger) plugin for [Bloaty McBloatface](https://github.com/google/bloaty).
 
-This plugin is not ready for use. Implementing has just begun…
+This plugin is still under development, and has only one basic feature now.
+
+## Prerequisites
+
+1. bloaty command available in `$PATH`
+  bloaty is available in Homebrew, so you can easily install with `brew install bloaty`
+1. environment variable `DANGER_BLOATY_APP_BINARY_PATH` pointing to the binary you want to run bloaty with.
 
 ## Installation
 
