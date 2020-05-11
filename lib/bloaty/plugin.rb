@@ -38,10 +38,11 @@ module Danger
 
       result = `bloaty #{ENV['DANGER_BLOATY_APP_BINARY_PATH']}`
 
-      markdown '## bloaty result'
+      markdown '<details><summary>bloaty result</summary>'
       markdown '```'
       markdown result
       markdown '```'
+      markdown '</details>'
     end
   end
 end
